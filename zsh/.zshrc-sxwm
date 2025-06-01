@@ -26,13 +26,15 @@ neofetch --source ~/skull.txt
 
 # For wallpaper
 # feh --bg-scale ~/Downloads/gruvbox-abstract-shapes-1920×1080.jpg
-feh --bg-scale ~/Downloads/forest2.jpg
+# feh --bg-scale ~/Downloads/forest2.jpg
+feh --bg-scale ~/Downloads/gruvmountains1.jpg
 # For battery
 acpi
 # for colors
 #for i in {0..255}; do print -Pn %K{} %k%F{}000%f  ; done
 
 source /home/admin/.oh-my-zsh/oh-my-zsh.sh
+# source /home/admin/scripts/hdmi
 
 [[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh
 
@@ -55,3 +57,6 @@ export MANPATH=/home/admin/.local/share/man:$MANPATH
 
 # Following line was automatically added by arttime installer
 export PATH=/home/admin/.local/bin:$PATH
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
