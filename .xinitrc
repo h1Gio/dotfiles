@@ -1,7 +1,7 @@
 # chmod +x ~/.xinitrc
 
 # Autostart apps
-feh --bg-scale ~/Downloads/forest2.jpg &  # set wallpaper
+feh --bg-scale ~/Downloads/gruvmountains1.jpg &  # set wallpaper
 kitty &	# Autostart the terminal
 picom & # For terminal handling
 # Kill any existing bars (in case of reloads)
