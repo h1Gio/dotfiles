@@ -12,6 +12,7 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 
 # Launch your bar (use the name from your config: [bar/example])
 polybar top &
+# Pre-built bar
 
 # Start sxwm
 exec sxwm
