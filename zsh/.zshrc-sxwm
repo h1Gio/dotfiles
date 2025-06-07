@@ -22,7 +22,8 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 plugins=(git zsh-autosuggestions)
 
 # For Neofetch
-neofetch --source ~/skull.txt
+neofetch
+# neofetch --source ~/skull.txt
 
 # For wallpaper
 # feh --bg-scale ~/Downloads/gruvbox-abstract-shapes-1920×1080.jpg
