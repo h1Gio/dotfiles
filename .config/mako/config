@@ -1,0 +1,42 @@
+# ─────────────────────────────
+# Mako — Gruvbox Minimal Theme
+# ─────────────────────────────
+
+font=JetBrainsMono Nerd Font 10
+background-color=#282828
+text-color=#ebdbb2
+border-color=#fabd2f
+border-size=2
+border-radius=8
+padding=8
+margin=10,10,0,0
+width=300
+height=100
+max-icon-size=48
+default-timeout=6000
+icons=1
+layer=overlay
+anchor=top-right
+progress-color=over #fabd2f
+outer-margin=10
+
+[urgency=low]
+background-color=#32302f
+border-color=#3c3836
+text-color=#d5c4a1
+default-timeout=4000
+
+[urgency=normal]
+background-color=#3c3836
+border-color=#fabd2f
+text-color=#ebdbb2
+default-timeout=6000
+
+[urgency=high]
+background-color=#cc241d
+border-color=#fb4934
+text-color=#fbf1c7
+default-timeout=0
+
+[app_id="NetworkManager"]
+ignore=true
