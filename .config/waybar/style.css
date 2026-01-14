@@ -1,0 +1,78 @@
+/* ─── Global ───────────────────────────────────────────── */
+* {
+    font-family: "JetBrains Mono", "Font Awesome 6 Free";
+    font-size: 15px;
+    font-weight: 600;
+    color: #ebdbb2;
+}
+
+window#waybar {
+    background: #282828;
+    border-bottom: 2px solid #3c3836;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+/* ─── Workspaces ───────────────────────────────────────── */
+#workspaces {
+    padding: 0 3px;
+}
+
+#workspaces button {
+    background: transparent;
+    color: #a89984;
+    padding: 0 8px;
+    margin: 0 2px;
+    border-radius: 6px;
+    border: none;
+}
+
+#workspaces button.active {
+    background: #d65d0e;
+    color: #282828;
+}
+
+#workspaces button:hover {
+    background: #3c3836;
+    color: #ebdbb2;
+}
+
+/* ─── Modules ──────────────────────────────────────────── */
+#clock, #network, #battery, #pulseaudio {
+    padding: 0 10px;
+    background: transparent;
+}
+
+/* ─── Battery States ───────────────────────────────────── */
+#battery.warning {
+    color: #fabd2f;
+}
+
+#battery{
+  color: #fabd2f
+}
+
+#battery.critical {
+    color: #fb4934;
+}
+
+/* ─── Volume / Network Highlights ───────────────────────── */
+#pulseaudio {
+    color: #83a598;
+}
+
+#network {
+    color: #b8bb26;
+}
+
+/* ─── Center clock ─────────────────────────────────────── */
+#clock {
+    color: #b8bb26;
+    font-weight: 600;
+}
+
+#mpris {
+  padding: 0 10px;
+  color: #d65d0e; /* gruvbox vibe */
+}
+

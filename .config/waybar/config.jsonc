@@ -1,0 +1,43 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+
+    "modules-left": ["hyprland/workspaces", "clock"],
+    "modules-center": ["mpris"],
+    "modules-right": ["tray", "network", "battery", "pulseaudio"],
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "{:%A, %B %d %Y}"
+    },
+
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "states": {
+            "warning": 25,
+            "critical": 10
+        }
+    },
+
+    "mpris": {
+      "player": "spotify",
+      "format": "{artist} - {title}",
+      "format-paused": " {artist} - {title}",
+      "format-stopped": "",
+      "tooltip-format": "{player} : {status}",
+      "max-length": 40
+    },  
+
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󰈀  {ifname}",
+        "format-disconnected": "󰤭  no net"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-icons": ["", "", ""]
+    }
+}
