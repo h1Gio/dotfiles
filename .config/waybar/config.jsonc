@@ -5,7 +5,7 @@
 
     "modules-left": ["hyprland/workspaces", "clock"],
     "modules-center": ["mpris"],
-    "modules-right": ["tray", "network", "battery", "pulseaudio"],
+    "modules-right": ["tray", "custom/bluetooth", "network", "battery", "pulseaudio"],
 
     "clock": {
         "format": "  {:%H:%M}",
@@ -39,5 +39,16 @@
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "format-icons": ["", "", ""]
+    },
+
+    "custom/bluetooth": {
+    "exec": "~/.config/waybar/scripts/bluetooth.sh",
+    "interval": 5,
+    "tooltip": true
+    },
+
+    "tray": {
+    "ignore": ["blueman-manager", "nm-applet"]
     }
+
 }
