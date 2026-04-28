@@ -1,0 +1,64 @@
+# ===============================
+# Gruvbox dircolors
+# Directories = Orange
+# ===============================
+
+# Core types
+NORMAL 00
+FILE   00
+RESET  0
+
+DIR 38;5;142        # Gruvbox orange (#d65d0e)
+LINK 38;5;108       # Aqua
+EXEC 38;5;166       # Green
+FIFO 38;5;214
+SOCK 38;5;175
+DOOR 38;5;175
+BLK 38;5;214;01
+CHR 38;5;214;01
+ORPHAN 38;5;167
+MISSING 38;5;167
+
+# Permissions
+SETUID 38;5;124
+SETGID 38;5;124
+CAPABILITY 38;5;124
+STICKY_OTHER_WRITABLE 38;5;208
+OTHER_WRITABLE 38;5;208
+STICKY 38;5;208
+
+# Archives
+.tar 38;5;167
+.tgz 38;5;167
+.zip 38;5;167
+.gz  38;5;167
+.xz  38;5;167
+.zst 38;5;167
+
+# Images
+.jpg 38;5;175
+.jpeg 38;5;175
+.png 38;5;175
+.webp 38;5;175
+.gif 38;5;175
+
+# Video
+.mp4 38;5;175
+.mkv 38;5;175
+.webm 38;5;175
+
+# Audio
+.mp3 38;5;142
+.flac 38;5;142
+.wav 38;5;142
+
+# Code
+.c    38;5;109
+.h    38;5;109
+.cpp  38;5;109
+.rs   38;5;109
+.py   38;5;109
+.js   38;5;109
+.ts   38;5;109
+.go   38;5;109
+.sh   38;5;142
