@@ -26,9 +26,9 @@ plugins=(git zsh-autosuggestions)
 # neofetch
 # For fastfetch
 # fastfetch
-fastfetch --pipe false --logo-type file --logo "$HOME/fastfetch.txt"
+fastfetch --logo-width 5 --pipe false --logo-type file --logo "$HOME/fastfetch.txt"
 # neofetch --source ~/skull.txt
-# for man pager
+##### for man pager #####
 export MANPAGER="nvim +Man!"
 
 # For wallpaper
@@ -69,4 +69,4 @@ export PATH=/home/admin/.local/bin:$PATH
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 export PATH=$PATH:/home/admin/.spicetify
-eval "$(dircolors ~.dircolors)"
+eval "$(dircolors ~/.dircolors)"
