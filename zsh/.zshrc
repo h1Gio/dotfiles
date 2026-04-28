@@ -69,3 +69,4 @@ export PATH=/home/admin/.local/bin:$PATH
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
 export PATH=$PATH:/home/admin/.spicetify
+eval "$(dircolors ~.dircolors)"
