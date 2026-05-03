@@ -27,7 +27,7 @@ plugins=(git zsh-autosuggestions)
 # For fastfetch
 # fastfetch
 # fastfetch --logo-width 5 --pipe false --logo-type file --logo "$HOME/fastfetch.txt"
-fastfetch --logo-width 35 --pipe false --logo-type kitty --logo "~/Pictures/wallpapers/wallpapers/DARKS/wallhaven-1qk63v_2048x1295.png"
+fastfetch --logo-width 35 --pipe false --logo-type kitty --logo "~/.config/fastfetch/logos/wallhaven-1qk63v_2048x1295.png"
 # neofetch --source ~/skull.txt
 ##### for man pager #####
 export MANPAGER="nvim +Man!"
