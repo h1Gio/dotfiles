@@ -13,4 +13,4 @@
 ## Appearance
 
 - GTK Theme: [Gruvbox GTK Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
-- Color Palette: [Gruvbox palette theme](https://github.com/morhetz/gruvbox)
+- GTK Theme: [Gruvbox palette theme](https://github.com/morhetz/gruvbox)
