@@ -22,7 +22,7 @@ hl.config({
 	general = {
 		gaps_in = 5,
 		gaps_out = 10,
-		border_size = 3,
+		border_size = 2,
 		layout = "dwindle",
 
 		col = {
@@ -43,8 +43,8 @@ hl.config({
 
 		shadow = {
 			enabled = true,
-			range = 10,
-			render_power = 2,
+			range = 16,
+			render_power = 0,
 			color = "rgba(00000066)",
 		},
 

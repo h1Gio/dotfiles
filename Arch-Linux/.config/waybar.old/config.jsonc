@@ -22,11 +22,12 @@
     },
 
     "mpris": {
-      "format": " {artist} - {title}",
+      "player": "spotify",
+      "format": "{artist} - {title}",
       "format-paused": " {artist} - {title}",
       "format-stopped": "",
       "tooltip-format": "{player} : {status}",
-      "max-length": 60
+      "max-length": 40
     },  
 
     "network": {

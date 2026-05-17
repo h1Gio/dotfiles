@@ -2,10 +2,11 @@
 # Mako — Gruvbox Minimal Theme
 # ─────────────────────────────
 
-font=JetBrainsMono Nerd Font 14
+font=JetBrainsMono Nerd Font 12
 background-color=#282828
 text-color=#ebdbb2
-border-color=#fabd2f
+# border-color=#fabd2f
+border-color=#98971a
 border-size=2
 border-radius=8
 padding=8
@@ -22,13 +23,13 @@ outer-margin=10
 
 [urgency=low]
 background-color=#32302f
-border-color=#3c3836
+border-color=#98971a
 text-color=#d5c4a1
 default-timeout=4004
 
 [urgency=normal]
 background-color=#3c3836
-border-color=#fabd2f
+border-color=#98971a
 text-color=#ebdbb2
 default-timeout=6000
 
