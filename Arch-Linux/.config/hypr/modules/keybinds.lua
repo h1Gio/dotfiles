@@ -46,7 +46,7 @@ hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 
-hl.bind(mainMod .. " + S", hl.dsp.layout("togglesplit"))
+-- hl.bind(mainMod .. " + S", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd([[sh -c "hyprctl reload && notify-send 'Hyprland' 'Config reloaded'"]]))
 
@@ -122,3 +122,20 @@ hl.config({
 		disable_splash_rendering = true,
 	},
 })
+
+--- SLEEP KEYBINDS ---
+
+hl.bind(
+	mainMod .. " + S",
+	hl.dsp.dpms({
+		"off",
+		"eDP-1",
+	})
+)
+hl.bind(
+	mainMod .. " + SHIFT + S",
+	hl.dsp.dpms({
+		"on",
+		"eDP-1",
+	})
+)

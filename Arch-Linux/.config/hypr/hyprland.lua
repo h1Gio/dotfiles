@@ -36,14 +36,14 @@ hl.config({
 		rounding_power = 4,
 
 		active_opacity = 1.0,
-		inactive_opacity = 0.92,
+		inactive_opacity = 0.90,
 
 		dim_inactive = true,
 		dim_strength = 0.08,
 
 		shadow = {
 			enabled = true,
-			range = 16,
+			range = 12,
 			render_power = 0,
 			color = "rgba(00000066)",
 		},
