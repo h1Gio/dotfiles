@@ -13,8 +13,8 @@
     },
 
     "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""],
+        "format": "{icon} {capacity}%",
+        "format-icons": [" ", " ", " ", " ", " "],
         "states": {
             "warning": 25,
             "critical": 10
@@ -37,7 +37,7 @@
 
     "pulseaudio": {
         "format": "{icon} {volume}%",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", " ", " "]
     },
 
     "custom/bluetooth": {
