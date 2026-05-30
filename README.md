@@ -9,6 +9,7 @@
 - **Status Bar**: `Waybar`
 - **App Launcher**: `rofi`
 - **Terminal**: `Kitty`
+- **Font**: `Hack Nerd Font & JetBrains Mono Nerd Font`
 
 ## Appearance
 
