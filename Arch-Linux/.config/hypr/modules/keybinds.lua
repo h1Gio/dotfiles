@@ -5,12 +5,7 @@
 local mainMod = "SUPER"
 
 -- Wallpapers
-hl.bind(
-	mainMod .. " + BACKSPACE",
-	hl.dsp.exec_cmd(
-		"swaybg -i ~/Pictures/wallpapers/wallpapers/DARKS/shelter-from-the-rain-by-ayuli2424-1920×1080.jpg"
-	)
-)
+hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/DARKS/ascii-tree.png"))
 
 hl.bind(
 	mainMod .. " + SHIFT + BACKSPACE",
