@@ -1,0 +1,46 @@
+# ~/.config/starship.toml
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+$rust\
+$python\
+$line_break\
+$character"""
+
+add_newline = true
+
+# --- DIRECTORY ---
+[directory]
+style = "bold #689d6a"   # dark aqua
+truncation_length = 3
+truncate_to_repo = true
+read_only = "  "
+
+# --- GIT ---
+[git_branch]
+style = "bold #b16286"   # purple
+
+[git_status]
+style = "bold #d79921"   # yellow
+
+# --- LANGUAGES ---
+[nodejs]
+symbol = " "
+style = "bold #98971a"   # green
+
+[rust]
+symbol = " "
+style = "bold #d65d0e"   # orange
+
+[python]
+symbol = " "
+style = "bold #d79921"   # yellow
+
+# --- PROMPT CHARACTER ---
+[character]
+success_symbol = "[](bold #98971a)"
+error_symbol = "[](bold #cc241d)"
+vicmd_symbol = "[](bold #458588)"
