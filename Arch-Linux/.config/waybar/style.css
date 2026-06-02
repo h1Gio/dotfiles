@@ -1,4 +1,3 @@
-/* ─── Global ───────────────────────────────────────────── */
 * {
   font-family: "JetBrains Mono", "Font Awesome 6 Free";
   font-size: 15px;
@@ -7,27 +6,21 @@
 }
 
 window#waybar {
-  /*background: #282828;*/
   background: transparent;
-  /*border-bottom: 4px solid #3c3836;*/
-  transition-property: background-color;
-  transition-duration: 0.5s;
 }
 
-/* ─── Workspaces ───────────────────────────────────────── */
 #workspaces {
   margin: 2px;
   background: #282828;
-  padding: 0 4px;
+  padding: 0px;
   border-radius: 12px;
-  border: 2px solid #1d2021;
+  border: transparent;
 }
 
 #workspaces button {
   background: transparent;
   color: #a89984;
   padding: 0 6px;
-  margin: 0 2px;
   border-radius: 12px;
   border: none;
 }
@@ -37,45 +30,15 @@ window#waybar {
   color: #fbf1c7;
 }
 
-#workspaces button:hover {
-  background: #3c3836;
-  color: #ebdbb2;
-}
-
-/* ─── Modules ──────────────────────────────────────────── */
-#clock,
 #network,
-#battery,
 #pulseaudio,
 #tray,
-#custom-bluetooth {
+#custom-bluetooth,
+#clock,
+#battery {
+  margin-top: 2px;
   padding: 0 10px;
   background: #282828;
-  margin: 2px;
-  border-radius: 12px;
-  border: 2px solid #1d2021;
-}
-
-/* ─── Battery States ───────────────────────────────────── */
-#battery.warning {
-  color: #fabd2f;
-}
-
-#battery {
-  color: #fabd2f;
-}
-
-#battery.critical {
-  color: #3c3836;
-}
-
-/* ─── Volume / Network Highlights ───────────────────────── */
-#pulseaudio {
-  color: #83a598;
-}
-
-#network {
-  color: #b8bb26;
 }
 
 #clock {
@@ -84,7 +47,28 @@ window#waybar {
   color: #b8bb26;
   font-weight: 600;
   border-radius: 12px;
-  border: 2px solid #1d2021;
+  border: none;
+}
+
+#battery {
+  color: #fabd2f;
+}
+
+#battery.warning {
+  color: #fabd2f;
+}
+
+#battery.critical {
+  color: #3c3836;
+}
+
+#pulseaudio {
+  margin-right: 2px;
+  color: #83a598;
+  border-radius: 0 12px 12px 0;
+}
+#network {
+  color: #b8bb26;
 }
 
 #mpris {
@@ -97,7 +81,6 @@ window#waybar {
 }
 
 #custom-bluetooth {
-  padding: 0 10px;
   color: #b16286;
 }
 
@@ -109,12 +92,15 @@ window#waybar {
   color: #b16286;
 }
 
-/* Bluetooth off */
 #custom-bluetooth.off {
   color: #cc241d;
 }
 
-/* On, not connected */
 #custom-bluetooth.idle {
-  color: #fabd2f;
+  color: #fadb2f;
+}
+
+#tray {
+  border: none;
+  border-radius: 12px 0 0 12px;
 }
