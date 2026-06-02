@@ -5,7 +5,10 @@
 local mainMod = "SUPER"
 
 -- Wallpapers
-hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/DARKS/ascii-tree.png"))
+hl.bind(
+	mainMod .. " + BACKSPACE",
+	hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/DARKS/wallhaven-yqvj5g_1920x1080.png")
+)
 
 hl.bind(
 	mainMod .. " + SHIFT + BACKSPACE",
@@ -44,6 +47,7 @@ hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 -- hl.bind(mainMod .. " + S", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd([[sh -c "hyprctl reload && notify-send 'Hyprland' 'Config reloaded'"]]))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("/home/admin/.config/waybar/launch.sh"))
 
 -- Mouse binds
 
