@@ -21,7 +21,7 @@ hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd("kitty"))
 hl.bind(
 	mainMod .. " + SHIFT + Return",
 	hl.dsp.exec_cmd(
-		[[kitty -e bash -c 'fastfetch --logo-width 35 --pipe false --logo-type kitty --logo ~/.config/fastfetch/logos/wallhaven-1qk63v_2048x1295.png; exec zsh']]
+		[[kitty -e bash -c 'fastfetch --logo-width 35 --pipe false --logo-type kitty --logo ~/.config/fastfetch/logos/wallhaven-1qk63v_2048x1295.png; exec fish']]
 	)
 )
 
