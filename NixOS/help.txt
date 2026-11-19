@@ -1,3 +1,5 @@
+THIS IS A ROUGH IDEA OF SETUP
+
 NixOS starter configuration for the user's Hyprland + NVIDIA laptop setup
 
 CONTENTS
