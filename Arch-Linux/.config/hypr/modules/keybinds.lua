@@ -7,12 +7,12 @@ local mainMod = "SUPER"
 -- Wallpapers
 hl.bind(
 	mainMod .. " + BACKSPACE",
-	hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/DARKS/wallhaven-yqvj5g_1920x1080.png")
+	hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/GruvBoxISH/wallhaven-mlyyd9_1920x1080.png & disown")
 )
 
 hl.bind(
 	mainMod .. " + SHIFT + BACKSPACE",
-	hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/DARKS/moodyforest.png")
+	hl.dsp.exec_cmd("swaybg -i ~/Pictures/wallpapers/wallpapers/MIDDLE/wallhaven-d82pgl_1920x1080.png & disown")
 )
 
 -- Applications

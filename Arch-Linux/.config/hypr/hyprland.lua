@@ -28,7 +28,7 @@ hl.config({
 
 		col = {
 			active_border = "rgb(98971a)",
-			inactive_border = "rgba(313244aa)",
+			inactive_border = "rgb(504945)",
 		},
 	},
 
@@ -37,16 +37,16 @@ hl.config({
 		rounding_power = 4,
 
 		active_opacity = 1.0,
-		inactive_opacity = 0.90,
+		inactive_opacity = 0.92,
 
 		dim_inactive = true,
-		dim_strength = 0.08,
+		dim_strength = 0.04,
 
 		shadow = {
 			enabled = true,
-			range = 12,
-			render_power = 1,
-			color = "rgba(00000066)",
+			range = 14,
+			render_power = 4,
+			color = "rgb(282828)",
 		},
 
 		blur = {
