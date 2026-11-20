@@ -14,7 +14,7 @@ window#waybar {
   background: #282828;
   padding: 0px;
   border-radius: 12px;
-  border: 3px solid #1d2021;
+  border: 3px solid #3c3836;
 }
 
 #workspaces button {
@@ -38,7 +38,7 @@ window#waybar {
   margin-top: 2px;
   padding: 0 10px;
   background: #282828;
-  border: 2px solid #1d2021;
+  border: 3px solid #3c3836;
 }
 
 #clock {
@@ -47,11 +47,13 @@ window#waybar {
   color: #b8bb26;
   font-weight: 600;
   border-radius: 12px;
-  border: 2px solid #1d2021;
+  border: 3px solid #3c3836;
 }
 
 #battery {
   color: #fabd2f;
+  border-left: none;
+  border-right: none;
 }
 
 #battery.warning {
@@ -66,10 +68,12 @@ window#waybar {
   margin-right: 2px;
   color: #83a598;
   border-radius: 0 12px 12px 0;
+  border-left: none;
 }
 #network {
   color: #b8bb26;
   border-radius: 12px 0 0 12px;
+  border-right: none;
 }
 
 #mpris {
@@ -78,7 +82,7 @@ window#waybar {
   color: #d65d0e;
   background: #282828;
   border-radius: 12px;
-  border: 2px solid #1d2021;
+  border: 3px solid #3c3836;
 }
 
 #custom-bluetooth {
@@ -109,5 +113,5 @@ window#waybar {
   margin-top: 2px;
   padding: 0 10px;
   background: #282828;
-  border: 2px solid #1d2021;
+  border: 3px solid #3c3836;
 }
