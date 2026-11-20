@@ -93,4 +93,4 @@ configuration {
       delay:  0;
     }
 }
-@theme "gruvbox-bar"
+@theme "Gruvbox-Theme"

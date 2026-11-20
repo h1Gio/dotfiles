@@ -1,20 +1,8 @@
 * {
-    /* Catppuccin Mocha mapped colors */
-    bg0:    #282828;      /* Base */
-    bg1:    #3c3836;      /* Surface0 */
-    bg2:    #3c3836;      /* Surface1 */
-    bg3:    #79740e;      /* Blue (accent) */
-    fg0:    #fbf1c7;      /* Text */
-    fg1:    #f5e0dc;      /* Rosewater (highlight) */
-    fg2:    #bac2de;      /* Subtext1 */
-    fg3:    #6c7086;      /* Overlay0 */
-}
-
-* {
-    font:   "Inter 13";
+    font:   "Hack Nerd Font 14";
 
     background-color:   transparent;
-    text-color:         @fg0;
+    text-color:         @ebdbb2;
 
     margin:     0px;
     padding:    0px;
@@ -26,10 +14,10 @@ window {
     y-offset:       calc(50%- 210px);
     width:          480;
     border-radius:  24px;
-    border:         2px;
-    border-color:   @bg3;
+    border:         4px;
+    border-color:   #98971a;
 
-    background-color:   @bg0;
+    background-color:   #1d2021;
 }
 
 mainbox {
@@ -37,10 +25,10 @@ mainbox {
 }
 
 inputbar {
-    background-color:   @bg1;
-    border-color:       @bg3;
+    background-color:   #282828;
+    border-color:       #98971a;
 
-    border:         2px;
+    border:         4px;
     border-radius:  16px;
 
     padding:    8px 16px;
@@ -49,19 +37,20 @@ inputbar {
 }
 
 prompt {
-    text-color: @fg2;
+    text-color: #cc241d;
 }
 
 entry {
     placeholder:        "Search";
-    placeholder-color:  @fg3;
+    placeholder-color:  #fbf1c7;
+    text-color:         #fbf1c7;
 }
 
 message {
     margin:             12px 0 0;
     border-radius:      16px;
-    border-color:       @bg2;
-    background-color:   @bg2;
+    border-color:       #b8bb26;
+    background-color:   #b8bb26;
 }
 
 textbox {
@@ -69,11 +58,13 @@ textbox {
 }
 
 listview {
-    background-color:   transparent;
+    background-color:   #282828;
 
     margin:     12px 0 0;
     lines:      8;
     columns:    1;
+    border: 4px;
+    border-radius: 16px;
 
     fixed-height: false;
 }
@@ -85,15 +76,15 @@ element {
 }
 
 element normal active {
-    text-color: @bg3;
+    text-color: #cc241d;
 }
 
 element alternate active {
-    text-color: @bg3;
+    text-color: #cc241d;
 }
 
 element selected normal, element selected active {
-    background-color:   @bg3;
+    background-color:   #a89984;
 }
 
 element-icon {
@@ -102,9 +93,9 @@ element-icon {
 }
 
 element-text {
-    text-color: inherit;
+    text-color: #fbf1c7;
 }
 
 element selected {
-    text-color: @bg1;
+    text-color: #282828;
 }
