@@ -40,12 +40,6 @@
         "format-icons": ["", " ", " "]
     },
 
-    "custom/bluetooth": {
-    "exec": "~/.config/waybar/scripts/bluetooth.sh",
-    "interval": 5,
-    "tooltip": true
-    },
-
     "tray": {
     "ignore": ["blueman-manager", "nm-applet"]
     }

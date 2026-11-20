@@ -14,7 +14,7 @@ window#waybar {
   background: #282828;
   padding: 0px;
   border-radius: 12px;
-  border: transparent;
+  border: 3px solid #1d2021;
 }
 
 #workspaces button {
@@ -32,13 +32,13 @@ window#waybar {
 
 #network,
 #pulseaudio,
-#tray,
 #custom-bluetooth,
 #clock,
 #battery {
   margin-top: 2px;
   padding: 0 10px;
   background: #282828;
+  border: 2px solid #1d2021;
 }
 
 #clock {
@@ -47,7 +47,7 @@ window#waybar {
   color: #b8bb26;
   font-weight: 600;
   border-radius: 12px;
-  border: none;
+  border: 2px solid #1d2021;
 }
 
 #battery {
@@ -69,6 +69,7 @@ window#waybar {
 }
 #network {
   color: #b8bb26;
+  border-radius: 12px 0 0 12px;
 }
 
 #mpris {
@@ -105,4 +106,8 @@ window#waybar {
   border: none;
   border-radius: 12px;
   margin-right: 4px;
+  margin-top: 2px;
+  padding: 0 10px;
+  background: #282828;
+  border: 2px solid #1d2021;
 }
