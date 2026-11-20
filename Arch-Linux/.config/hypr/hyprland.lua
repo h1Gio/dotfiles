@@ -9,9 +9,10 @@ require("modules.env")
 
 hl.config({
 	input = {
-		kb_layout = "es",
+		kb_layout = "us",
 		follow_mouse = 1,
-		sensitivity = 0,
+		sensitivity = -0.5,
+		accel_profile = "flat",
 
 		touchpad = {
 			natural_scroll = false,
@@ -22,7 +23,7 @@ hl.config({
 	general = {
 		gaps_in = 5,
 		gaps_out = 10,
-		border_size = 2,
+		border_size = 3,
 		layout = "dwindle",
 
 		col = {
@@ -32,7 +33,7 @@ hl.config({
 	},
 
 	decoration = {
-		rounding = 8,
+		rounding = 0,
 		rounding_power = 4,
 
 		active_opacity = 1.0,
@@ -44,7 +45,7 @@ hl.config({
 		shadow = {
 			enabled = true,
 			range = 12,
-			render_power = 0,
+			render_power = 1,
 			color = "rgba(00000066)",
 		},
 

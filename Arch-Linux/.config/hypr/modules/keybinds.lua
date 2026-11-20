@@ -138,3 +138,8 @@ hl.bind(
 		"eDP-1",
 	})
 )
+
+--- Clipboard ---
+hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
+
+hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("cliphist wipe"))

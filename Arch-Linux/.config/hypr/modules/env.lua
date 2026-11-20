@@ -10,3 +10,4 @@ hl.env("GTK_THEME", "Adwaita-dark")
 
 -- Qt Theme
 hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
