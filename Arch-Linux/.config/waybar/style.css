@@ -57,11 +57,11 @@ window#waybar {
 }
 
 #battery.warning {
-  color: #fabd2f;
+  color: #fe8019;
 }
 
 #battery.critical {
-  color: #3c3836;
+  color: #cc241d;
 }
 
 #pulseaudio {

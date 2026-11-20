@@ -1,0 +1,47 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+
+    "modules-left": ["hyprland/workspaces", "clock"],
+    "modules-center": ["mpris"],
+    "modules-right": ["tray", "custom/bluetooth", "network", "battery", "pulseaudio"],
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "{:%A, %B %d %Y}"
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "states": {
+            "warning": 25,
+            "critical": 10
+        }
+    },
+
+    "mpris": {
+      "format": " {artist} - {title}",
+      "format-paused": " {artist} - {title}",
+      "format-stopped": "",
+      "tooltip-format": "{player} : {status}",
+      "max-length": 60
+    },  
+
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󰈀  {ifname}",
+        "format-disconnected": "󰤭  no net"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-icons": ["", " ", " "]
+    },
+
+    "tray": {
+    "ignore": ["blueman-manager", "nm-applet"]
+    }
+
+}

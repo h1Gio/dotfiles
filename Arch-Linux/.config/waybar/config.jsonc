@@ -16,8 +16,8 @@
         "format": "{icon} {capacity}%",
         "format-icons": [" ", " ", " ", " ", " "],
         "states": {
-            "warning": 25,
-            "critical": 10
+            "warning": 50,
+            "critical": 25
         }
     },
 
