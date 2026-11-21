@@ -18,12 +18,14 @@ hl.bind(
 -- Applications
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd("kitty"))
 
-hl.bind(
-	mainMod .. " + SHIFT + Return",
-	hl.dsp.exec_cmd(
-		[[kitty -e bash -c 'fastfetch --logo-width 35 --pipe false --logo-type kitty --logo ~/.config/fastfetch/logos/wallhaven-1qk63v_2048x1295.png; exec fish']]
-	)
-)
+hl.bind(mainMod .. " + SHIFT + Return", hl.dsp.exec_cmd([[kitty -e bash -c 'fastfetch -l "none"; exec fish']]))
+
+-- hl.bind(
+--	mainMod .. " + SHIFT + Return",
+--	hl.dsp.exec_cmd(
+--		[[kitty -e bash -c 'fastfetch --pipe false --logo-type file --logo ~/Documents/skull.txt; exec fish']]
+-- 	)
+-- )
 
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("firefox"))
 
@@ -122,22 +124,9 @@ hl.config({
 	},
 })
 
---- SLEEP KEYBINDS ---
+--- Screenshot KEYBINDS ---
 
-hl.bind(
-	mainMod .. " + S",
-	hl.dsp.dpms({
-		"off",
-		"eDP-1",
-	})
-)
-hl.bind(
-	mainMod .. " + SHIFT + S",
-	hl.dsp.dpms({
-		"on",
-		"eDP-1",
-	})
-)
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("flameshot gui & disown"))
 
 --- Clipboard ---
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy"))
